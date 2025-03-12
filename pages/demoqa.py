@@ -11,3 +11,4 @@ class DemoQa(BasePage):
         self.text_element = WebElement(driver, locator='#app > footer > span')
 
         self.center_text = WebElement(driver, locator='#app > div > div > div > div.col-12.mt-4.col-md-6')
+        self.title = 'DEMOQA'
